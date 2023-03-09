@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formValue{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 7px 0 7px 10px;
+    font-size: 16px;
+    border: 2px solid rgb(177, 170, 170);
+    transition: 0.3s linear;
+}
+
+.formValue:hover{
+    border: 2px solid rgb(53, 181, 53);
+}
