@@ -2,7 +2,6 @@ import React from 'react';
 import './BlockValueCurrency.css';
 
 const BlockValueCurrency = ({currency, chooseCurrent, choseOperation, count}) =>{
-
     return(
         <div className='form'>
             <input type={'number'} onChange={choseOperation} value={count} min={1} className={'formValue'}/>

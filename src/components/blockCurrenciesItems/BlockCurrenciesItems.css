@@ -1,0 +1,6 @@
+.blockCurrencies{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-bottom: 20px;
+}

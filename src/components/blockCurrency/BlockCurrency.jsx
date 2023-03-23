@@ -1,12 +1,13 @@
 import React from 'react';
-import BlockValueCurrency from './BlockValueCurrency';
+import BlockValueCurrency from '../blockValueCurrency/BlockValueCurrency';
 import './BlockCurrency.css';
+import Text from '../text/Text';
 
 const BlockCurrency = ({currency, chooseCurrent, choseOperation, count, text}) =>{
 
     return(
-        <div className='blockCurrency'>
-            <p className='textDirection'>{text}</p>
+        <div>
+            <Text nameClass = {'textDirection'} text = {text}/>
             <BlockValueCurrency 
             currency = {currency}
             chooseCurrent = {chooseCurrent}

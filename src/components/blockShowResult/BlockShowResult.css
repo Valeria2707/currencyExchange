@@ -1,0 +1,14 @@
+.blockResult{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.currencyTo{
+    color: rgb(53, 181, 53);
+}
+
+.textResult{
+    font-size: 22px;
+    font-weight: bold;
+}
